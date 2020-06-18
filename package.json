@@ -1,0 +1,34 @@
+{
+  "name": "maniol-cli",
+  "version": "1.0.0",
+  "description": "This is a common web develop generator",
+  "main": "./core/index.js",
+  "bin": {
+    "maniol": "bin/maniol-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicolaschinc/maniol-cli.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Nicolas"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nicolaschinc/maniol-cli/issues"
+  },
+  "homepage": "https://github.com/Nicolaschinc/maniol-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^5.1.0",
+    "esm": "^3.2.25",
+    "pkg-install": "^1.0.0"
+  }
+}
