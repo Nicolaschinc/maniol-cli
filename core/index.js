@@ -1,5 +1,6 @@
 const program = require('commander');
 const VERSION = require('../package').version;
+const createApplication = require('../lib/tasks')
 
 export function cli(args) {
     program
@@ -14,7 +15,7 @@ export function cli(args) {
         .action((name, cmd) => {
             // todo
             console.log(name)
-            console.log(cmd.install)
+            console.log(args)
         });
 
     program.parse(args);
