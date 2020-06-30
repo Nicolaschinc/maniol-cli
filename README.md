@@ -2,8 +2,10 @@
 
 a common web develop generator based on front and back end separation
 
-## Installation
+## install
 
-## Quick Start
-
-## Command Line Options
+## start
+```
+    maniol myapp 
+```
+## options
